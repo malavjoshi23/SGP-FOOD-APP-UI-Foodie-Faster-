@@ -33,7 +33,7 @@ class FoodQuantity extends StatelessWidget {
                     width: 15,
                   ),
                   Text(
-                    '\$',
+                    '\₹',
                     style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
                   ),
                   Text(
@@ -55,11 +55,6 @@ class FoodQuantity extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Text(
-                      '-',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    ),
                     Container(
                       padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
@@ -67,11 +62,6 @@ class FoodQuantity extends StatelessWidget {
                       child: Text(
                         food!.quantity!.toString(),
                       ),
-                    ),
-                    Text(
-                      '+',
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     ),
                   ],
                 ),

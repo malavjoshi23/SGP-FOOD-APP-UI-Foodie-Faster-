@@ -63,7 +63,7 @@ class FoodItem extends StatelessWidget {
                   Row(
                     children: [
                       Text(
-                        '\$',
+                        '\₹',
                         style: TextStyle(
                           fontSize: 10,
                           fontWeight: FontWeight.bold,
