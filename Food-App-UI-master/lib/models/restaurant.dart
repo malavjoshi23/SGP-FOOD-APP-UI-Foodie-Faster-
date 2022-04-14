@@ -22,18 +22,18 @@ class Restaurant {
 
   static Restaurant generateRestaurant() {
     return Restaurant(
-        name: 'Restaurant',
-        waitTime: "20-30min",
-        distance: '2.4km',
-        label: 'Restaurant',
+        name: 'CHARUSAT',
+        waitTime: "10-15min",
+        distance: '10m',
+        label: 'CANTEENS',
         logoUrl: 'assets/images/res_logo.png',
-        desc: 'Orange Sandwiches is delicious',
+        desc: '>>>Hostel food',
         score: 4.7,
         menu: {
-          'Recommend': Food.generateRecommendFoods(),
-          'Popular': Food.generatePopularFood()!,
-          'Noodles': [],
-          'Pizza': [],
+          'Dannys': Food.generateRecommendFoods(),
+          'Iceberg': Food.generatePopularFood()!,
+          'Shreeji': Food.generateShreeji()!,
+          'Sweetspot': Food.generateSweetSpot()!,
         });
   }
 }
